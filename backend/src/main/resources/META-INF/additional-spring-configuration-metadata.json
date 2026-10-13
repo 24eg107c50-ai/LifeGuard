@@ -1,6 +1,11 @@
 {
   "properties": [
     {
+      "name": "app.cors.allowed-origins",
+      "type": "java.lang.String",
+      "description": "Comma-separated browser origins allowed to call the API."
+    },
+    {
       "name": "twilio.account-sid",
       "type": "java.lang.String",
       "description": "Twilio account SID supplied by the TWILIO_ACCOUNT_SID environment variable."
