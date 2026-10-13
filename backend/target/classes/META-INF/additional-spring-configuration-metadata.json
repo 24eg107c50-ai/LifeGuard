@@ -1,0 +1,19 @@
+{
+  "properties": [
+    {
+      "name": "twilio.account-sid",
+      "type": "java.lang.String",
+      "description": "Twilio account SID supplied by the TWILIO_ACCOUNT_SID environment variable."
+    },
+    {
+      "name": "twilio.auth-token",
+      "type": "java.lang.String",
+      "description": "Twilio auth token supplied by the TWILIO_AUTH_TOKEN environment variable."
+    },
+    {
+      "name": "twilio.phone-number",
+      "type": "java.lang.String",
+      "description": "Twilio sender number supplied by the TWILIO_PHONE_NUMBER environment variable."
+    }
+  ]
+}
